@@ -53,7 +53,7 @@ const Library = () => {
       duration: '00:23',
       createdAt: '2 hours ago',
       streamSource: 'pump.fun/degen-trader',
-      tags: ['RUG', 'EPIC', 'CHAT'],
+      tags: ['MOON', 'EPIC', 'CHAT'],
       views: 1247,
       downloads: 89,
     },

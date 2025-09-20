@@ -37,29 +37,6 @@ const Navigation = () => {
               Generate
             </button>
           </Link>
-          <Link to="/library">
-            <button
-              className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 ${
-                location.pathname === '/library'
-                  ? 'bg-primary text-primary-foreground'
-                  : 'text-foreground hover:bg-accent hover:text-accent-foreground'
-              }`}
-            >
-              Library
-            </button>
-          </Link>
-          <Link to="/styles">
-            <button
-              className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 ${
-                location.pathname === '/styles'
-                  ? 'bg-primary text-primary-foreground'
-                  : 'text-foreground hover:bg-accent hover:text-accent-foreground'
-              }`}
-            >
-              Styles
-            </button>
-          </Link>
-          <button className="btn-secondary">Sign In</button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -91,31 +68,6 @@ const Navigation = () => {
                 Generate
               </button>
             </Link>
-            <Link to="/library" onClick={() => setIsMobileMenuOpen(false)}>
-              <button
-                className={`w-full px-4 py-3 rounded-lg font-medium text-left transition-all duration-200 ${
-                  location.pathname === '/library'
-                    ? 'bg-primary text-primary-foreground'
-                    : 'text-foreground hover:bg-accent hover:text-accent-foreground'
-                }`}
-              >
-                Library
-              </button>
-            </Link>
-            <Link to="/styles" onClick={() => setIsMobileMenuOpen(false)}>
-              <button
-                className={`w-full px-4 py-3 rounded-lg font-medium text-left transition-all duration-200 ${
-                  location.pathname === '/styles'
-                    ? 'bg-primary text-primary-foreground'
-                    : 'text-foreground hover:bg-accent hover:text-accent-foreground'
-                }`}
-              >
-                Styles
-              </button>
-            </Link>
-            <button className="btn-secondary w-full justify-start">
-              Sign In
-            </button>
           </div>
         </div>
       )}

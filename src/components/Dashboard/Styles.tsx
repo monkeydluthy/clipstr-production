@@ -348,7 +348,7 @@ const Styles = () => {
                     {/* Sample tags */}
                     <div className="absolute top-4 right-4 flex gap-1">
                       <span className="bg-primary text-primary-foreground px-2 py-1 text-xs font-medium rounded">
-                        RUG
+                        MOON
                       </span>
                       <span className="bg-primary text-primary-foreground px-2 py-1 text-xs font-medium rounded">
                         GG

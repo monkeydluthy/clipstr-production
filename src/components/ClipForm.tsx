@@ -811,10 +811,6 @@ const ClipForm: React.FC = () => {
               <p className="text-sm text-muted-foreground mt-2">
                 Enter a direct link to your video file
               </p>
-              <p className="text-sm text-amber-500 mt-1 flex items-center gap-1">
-                ⚠️ Large videos (&gt;25MB) will be cropped to TikTok format but
-                captions may be skipped
-              </p>
             </div>
 
             <div>
@@ -880,7 +876,7 @@ const ClipForm: React.FC = () => {
             ) : (
               <>
                 <Sparkles className="w-5 h-5" />
-                🎬 Create TikTok Video
+                🎬 Create Clip
               </>
             )}
           </button>
